@@ -1,0 +1,95 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "aula1.py",
+      "provenance": [],
+      "toc_visible": true,
+      "authorship_tag": "ABX9TyPGMmLrQzVqBzsMMcRntIgT",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/tigo-di/mackenzie-algoritmos-e-programacao/blob/main/aula1.py\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "YdlrcBGdb-IP",
+        "outputId": "5f8294f1-ba04-46d7-b436-13c7d7cf4046"
+      },
+      "source": [
+        "# print('Insert 3 numbers: ')\n",
+        "# n1 = int(input())\n",
+        "# n2 = int(input())\n",
+        "# n3 = int(input())\n",
+        "\n",
+        "# media = float((n1 + n2 + n3)/3)\n",
+        "\n",
+        "# print(f'vamos programar {media:.4f}')\n",
+        "\n",
+        "\n",
+        "# Faça um programa que receba três notas e seus respectivos pesos, calcule e mostre a média ponderada dessas notas\n",
+        "\n",
+        "\n",
+        "# print('Insert 3 grades: ')\n",
+        "# grade1 = float(input())\n",
+        "# grade2 = float(input())\n",
+        "# grade3 = float(input())\n",
+        "\n",
+        "\n",
+        "# print('Insert weight for each grade: ')\n",
+        "# weight1 = int(input())\n",
+        "# weight2 = int(input())\n",
+        "# weight3 = int(input())\n",
+        "\n",
+        "\n",
+        "# sumGradesXWeights = (grade1 * weight1) + \\ (grade2 * weight2) + (grade3 * weight3)\n",
+        "# sumWeights = weight1 + weight2 + weight3\n",
+        "\n",
+        "# weightedAverage = sumGradesXWeights / sumWeights\n",
+        "\n",
+        "# print(f'weighted avergade is {weightedAverage:.2f}')\n",
+        "\n",
+        "\n",
+        "# Faça um programa que receba o salário de um funcionário, calcule e mostre o novo salário, sabendo-se que este sofreu um aumento de 25%\n",
+        "\n",
+        "currentWage = float(input('Current salary: '))\n",
+        "argumented = currentWage * .25\n",
+        "newWage = currentWage + argumented\n",
+        "\n",
+        "print(f'The increase salary is {argumented}. The new salary is {newWage:.2f}')"
+      ],
+      "execution_count": 10,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Current salary: 900\n",
+            "The increase salary is 225.0. The new salary is 1125.00\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
